@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(189, 189, 189);
+    transition: .4s;
+  }
+
+.titulo {
+    text-align: center;
+}
+
+.cabecalho {
+    background: url(../img/bv-digital.png);
+    height: 20vh;
+    background-size:contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos_form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+}
+
+table {
+    border: 2px solid rgb(99, 97, 97);
+    letter-spacing: 1px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1%;
+    text-align: center; 
+    margin-top: 60px;
+    display: table;
+    
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+
+}
+
+.tabela tr {
+    background-color: rgb(103, 103, 104);
+    text-align: center;
+}
+
+.tabela td {
+    text-align: center;
+    height: 4vh;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.excluirEbook {
+    text-align: center;
+    margin-top: 20px;
+}
+
